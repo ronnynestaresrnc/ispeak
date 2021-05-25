@@ -1,0 +1,52 @@
+[
+    {
+      "id": 1,
+      "name": "Rick Sanchez",
+      "status": "Alive",
+      "species": "Human",
+      "gender": "Male" 
+    },
+    {
+        "id": 2,
+        "name": "Morty Smith",
+        "status": "Alive",
+        "species": "Human",
+        "gender": "Male" 
+      },
+      {
+        "id": 3,
+        "name": "Beth Smith",
+        "status": "Alive",
+        "species": "Human",
+        "gender": "Male" 
+      },
+      {
+        "id": 4,
+        "name": "Rick Sanchez",
+        "status": "Alive",
+        "species": "Human",
+        "gender": "Male" 
+      },
+      {
+        "id": 5,
+        "name": "Rick Sanchez",
+        "status": "Alive",
+        "species": "Human",
+        "gender": "Male" 
+      },
+      {
+        "id": 6,
+        "name": "Rick Sanchez",
+        "status": "Alive",
+        "species": "Human",
+        "gender": "Male" 
+      },
+      {
+        "id": 7,
+        "name": "Rick Sanchez",
+        "status": "Alive",
+        "species": "Human",
+        "gender": "Male" 
+      }
+   
+  ]
