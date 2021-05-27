@@ -8,6 +8,7 @@ document.querySelectorAll(".rick").forEach((btn) => {
       location: "Ubicaciones.html",
       blog:"Blog.html",
       contacto:"Contact.html",
+      portafolio:"Portafolio.html"
      
     };
     let web = navegacion[defaultd] || defaultd;
