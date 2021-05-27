@@ -145,7 +145,7 @@ document.querySelectorAll(".list-r").forEach((btn) => {
       location: "Ubicaciones.html",
       blog:"Blog.html",
       contacto:"Contact.html",
-      portafolio:"Portafolio"
+      portafolio:"Portafolio.html"
      
     };
     let web = navegacion[defaultd] || defaultd;
