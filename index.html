@@ -209,7 +209,7 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active text-white" aria-current="page" href="#"
+              <a class="nav-link active text-white" aria-current="page" href="./index.html"
                 >Home</a
               >
             </li>
@@ -235,28 +235,7 @@
                 </li>
               </ul>
             </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle text-white"
-                href="#"
-                id="navbarDropdownMenuLink"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                SERIES
-              </a>
-              <ul
-                class="dropdown-menu dropdown-menu-dark"
-                aria-labelledby="navbarDropdownMenuLink"
-              >
-                <li><a class="dropdown-item" href="#">Accion</a></li>
-                <li><a class="dropdown-item" href="#">fantasia</a></li>
-                <li>
-                  <a class="dropdown-item" href="#">comedia</a>
-                </li>
-              </ul>
-            </li>
+           
           
             <li class="nav-item">
               <a
@@ -267,6 +246,7 @@
                 >UBICACION</a
               >
             </li>
+
             <li class="nav-item">
               <a
                 class="nav-link active text-white rick"
@@ -277,8 +257,26 @@
               >
             </li>
             <li class="nav-item">
+              <a
+                class="nav-link active text-white rick"
+                id="portafolio"
+                aria-current="page"
+                href="#"
+                >PORTAFOLIO</a
+              >
+            </li>
+            <li class="nav-item">
               <a class="nav-link active text-white rick" id="episode" aria-current="page" href="#"
                 >EPISODIO</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active text-white rick"
+                id="blog"
+                aria-current="page"
+                href="#"
+                >BLOG</a
               >
             </li>
           </ul>
@@ -304,7 +302,7 @@
                 </svg>
                 submit video</a
               >
-              <a href="" class="text-white nav-link">
+              <a href="" class="text-white nav-link" id="login">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -324,7 +322,7 @@
       </div>
     </header>
     <div id="main-content">
-      <h4>dime la verdad</h4>
+     
     </div>
     <main class="main-content">
       <div class="banner-home" style="background-image: url(img/bg-0.jpg)">
@@ -394,73 +392,9 @@
           <div class="main__section-2 mt-5">
             <div class="wrap-main-element-2">
               <div class="normal-items">
-                <div class="row row-cols-1 row-cols-md-4 g-4">
-                  <div class="col-sm-6 col-lg-3">
-                    <div class="card border-0 bg-transparent">
-                      <img
-                        src="img/card-1.jpg"
-                        class="card-img-top"
-                        alt="..."
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title text-center text-white">
-                          Self-Hosted Video
-                        </h5>
-                        <p class="card-text text-secondary">
-                          las nuevas aventuras.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-6 col-lg-3">
-                    <div class="card border-0 bg-transparent">
-                      <img
-                        src="img/card-2.jpg"
-                        class="card-img-top"
-                        alt="..."
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title text-white text-center">
-                          El regreso de morty
-                        </h5>
-                        <p class="card-text text-secondary">La secuela</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-6 col-lg-3">
-                    <div class="card border-0 bg-transparent">
-                      <img
-                        src="img/card-3.jpg"
-                        class="card-img-top"
-                        alt="..."
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title text-white text-center">
-                          La vida despues de la muerta
-                        </h5>
-                        <p class="card-text text-secondary">
-                          continuara con la accion experimentada hoy en dia .
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-sm-6 col-lg-3">
-                    <div class="card border-0 bg-transparent">
-                      <img
-                        src="img/card-4.png"
-                        class="card-img-top"
-                        alt="..."
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title text-white text-center">
-                          Los hombres de negro rick y morty
-                        </h5>
-                        <p class="card-text text-secondary">
-                          en busca de la felicidad.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+                <h2 class="text-center py-4 text-white position-relative">PERSONAJES</h2>
+                <div class="row row-cols-1 row-cols-md-4 g-4" id="character-content">
+                 
                 </div>
               </div>
             </div>
@@ -550,22 +484,16 @@
               >
                 Capitulos
               </a>
-              <button
-                class="btn btn-danger"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseExample"
-                aria-expanded="false"
-                aria-controls="collapseExample"
-              >
-                Proximamente
-              </button>
+             
             </p>
             <div class="collapse" id="collapseExample">
-              <div class="card card-body">
-                Some placeholder content for the collapse component. This panel
-                is hidden by default but revealed when the user activates the
-                relevant trigger.
+              <div class="card card-body bg-dark ">
+                <div class="container">
+                     <div class="row row-cols-1 row-cols-md-4 g-4 " id="episode-content">
+                 
+                </div>
+                </div>
+            
               </div>
             </div>
           </div>
@@ -627,7 +555,7 @@
       </div>
     </section>
 
-    <h4 class="text-center text-secondary p-3 bg-dark">BIOGRAFIA</h4>
+    <h4 class="text-center text-secondary p-5 bg-dark">BIOGRAFIA</h4>
 
     <!--  <section class="bg-dark ">
     <div class="container ">
@@ -765,7 +693,30 @@
         </div>
       </div>
     </section>
+<article>
+  <div class="container">
+    <div class="row">
+      <div class="col-9">
+        <table class="table ">
+          <thead class="table-danger">
+              <tr>
+                  <th>Cod</th>
+                  <th>Nombre</th>
+                  <th>estado</th>
+                  <th>genero</th>
+              </tr>
+          </thead>
+          <tbody id="tbody-rick" class="text-white">
 
+          </tbody>
+      </table>
+      </div>
+      <div class="col-3">
+        c
+      </div>
+    </div>
+  </div>
+</article>
     <footer class="container py-5">
       <!-- START FOOTER--->
       <div class="row">
@@ -814,7 +765,7 @@
       integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
       crossorigin="anonymous"
     ></script>
-    <script type="module" src="src/app.js"></script>
+    <script  src="src/app.js"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
 
