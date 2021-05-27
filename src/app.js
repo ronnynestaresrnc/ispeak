@@ -38,25 +38,38 @@ for (const value of data) {
   
 }
 }) 
+
 //4
-fetch("src/json/api.json")
+/* fetch("/api/api.json")
 .then(res=>res.json())
 .then(data=>{
- 
- 
+  console.log(data)
+ for (const values of data) {
+  document.getElementById("idcard").innerHTML += 
+  `
+  simelo` */
+  /* <div class="col">
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">${value.name}</h5>
+      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    </div>
+  </div>
+</div> 
   
-
-}) 
-
-
+} 
+})
 
 
+
+*/
 
 
 
 // 4de estos
-/* import API from "./api/api.js";
+/*  import API from "./api/api.js";
 const api = new API();
-console.log(api.getCharacter()); */
+console.log(api.getCharacter());  */
 
-//api
+

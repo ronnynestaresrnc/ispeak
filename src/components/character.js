@@ -1,8 +1,10 @@
-fetch("json/api.json")
+/* 
+alert("dd")
+fetch("../json/api.json")
 .then(function (response) {
-    return response.json();
+     response.json();
 })
 .then(function (data){
     console.log(data);
   
-})
+}) */
